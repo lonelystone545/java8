@@ -15,6 +15,6 @@ public class User {
     private String name;
 
     public Boolean isStudent() {
-        return id % 2 == 0;
+        return id345 % 2 == 0;
     }
 }

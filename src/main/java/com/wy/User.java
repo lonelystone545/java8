@@ -1,5 +1,3 @@
-package com.wy;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -26,3 +24,4 @@ public class User {
 
     }
 }
+

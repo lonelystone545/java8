@@ -14,7 +14,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class User12 {
+public class User {
     private Integer id123333;
     private String name;
 
@@ -22,7 +22,7 @@ public class User12 {
         return id % 2 == 0;
     }
 
-    public void aa() {
-        
+    public void aa111() {
+
     }
 }

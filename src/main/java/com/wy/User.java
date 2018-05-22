@@ -1,6 +1,5 @@
 package com.wy;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,12 +14,12 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
-    private Integer id111;
 
-    private String name;
+public class User123 {
+    private Integer id123;
+    private String name123;
 
     public Boolean isStudent() {
-        return id222 % 2 == 0;
+        return id123 % 2 == 0;
     }
 }

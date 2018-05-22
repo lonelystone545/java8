@@ -1,4 +1,5 @@
 package com.wy;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,7 +15,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User11 {
-    private Integer id;
+    private Integer id123;
     private String name;
 
     public Boolean isStudent() {

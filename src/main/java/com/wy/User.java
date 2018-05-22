@@ -1,7 +1,6 @@
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+package com.wy;
+
+import lombok.*;
 
 /**
  * @Auther: wangyuan1
@@ -12,18 +11,14 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 public class User {
 
-    private Integer id456;
+    private Integer id;
     private String name;
 
     public Boolean isStudent() {
-        return id456 % 2 == 0;
-    }
-
-    public void aa456() {
-
-
+        return id % 2 == 0;
     }
 
 }

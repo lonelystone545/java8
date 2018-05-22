@@ -1,7 +1,10 @@
 package com.wy;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-import jdk.nashorn.internal.objects.annotations.Setter;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 /**
  * @Auther: wangyuan1
@@ -10,8 +13,10 @@ import jdk.nashorn.internal.objects.annotations.Setter;
  */
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class User {
-    private Integer id;
+    private Integer id1;
     private String name;
 
     public Boolean isStudent() {

@@ -16,7 +16,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
-    private Integer id1;
+    private Integer id;
     private String name;
 
     public Boolean isStudent() {

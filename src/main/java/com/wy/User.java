@@ -16,10 +16,10 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
-    private Integer id;
+    private Integer id2;
     private String name;
 
     public Boolean isStudent() {
-        return id % 2 == 0;
+        return id345 % 2 == 0;
     }
 }

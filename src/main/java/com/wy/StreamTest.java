@@ -6,4 +6,12 @@ package com.wy;
  * @Description:
  */
 public class StreamTest {
+
+    /**
+     * 获取流的方式
+     */
+    public void test1() {
+        //1
+
+    }
 }

@@ -14,11 +14,15 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class User11 {
-    private Integer id123;
+public class User12 {
+    private Integer id123333;
     private String name;
 
     public Boolean isStudent() {
         return id % 2 == 0;
+    }
+
+    public void aa() {
+        
     }
 }

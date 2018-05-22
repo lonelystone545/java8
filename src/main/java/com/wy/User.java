@@ -11,7 +11,7 @@ import jdk.nashorn.internal.objects.annotations.Setter;
 @Getter
 @Setter
 public class User {
-    private Integer id;
+    private Integer id2;
     private String name;
 
     public Boolean isStudent() {
